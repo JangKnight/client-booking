@@ -10,5 +10,6 @@ type User struct {
 }
 
 func (u User) Save() {
+	// later: add to db or file
 	fmt.Printf("User %s has been saved.", u.Name)
 }
